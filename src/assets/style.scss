@@ -1,0 +1,48 @@
+.body {
+    margin: 0;
+    background-color: rgb(240, 240, 255)
+}
+.inputWrapper {
+    position: relative;
+}
+.input-count {
+    position: absolute;
+    right: 21%;
+    bottom: 8px;
+}
+.tweet-textarea {
+    width: 100%;
+}
+.send-tweet {
+    width: 20%;
+    position: absolute;
+    bottom: 6px;
+    right: 0;
+}
+.tweet {
+    display: flex;
+    padding: 0 16px 16px;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+}
+.icon-wrapper {
+    display: inline;
+    margin-right: 16px;
+    font-size: 3rem;
+}
+.body-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.display-name {
+    margin-right: 8px;
+    font-weight: bold;
+}
+.account-name {
+    color: #333;
+}
+.content {
+    flex: 1;
+    white-space: pre-line;
+}
